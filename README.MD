@@ -53,7 +53,15 @@ npm start
         - `user`: Datos del usuario creado.
         - `token`: Token JWT.
     - En caso de error: Un mensaje de error con código de estado 400 o 500.
-
+```json
+{
+    "nombre": "George",
+    "apellido": "Maxi",
+    "usuario": "georgeee",
+    "email": "georgeee@gmail.com",
+    "password": "password1234MJK"
+}
+```
 ### `POST /api/v1/login`
 - **Descripción:** Autentica a un usuario y devuelve un token JWT.
 - **Cuerpo de la solicitud:** Un objeto JSON que contiene:
@@ -74,3 +82,13 @@ npm start
     - En caso de error:
         - Si el usuario no existe: Mensaje de error con código de estado 404.
         - Si hay problemas con los datos: Mensaje de error con código de estado 400.
+
+```json
+{
+    "nombre": "Brian",
+    "apellido": "Maxi",
+    "usuario": "georgeeee",
+    "email": "george@gmail.com",
+    "password": "password1234MJK"
+}
+```
