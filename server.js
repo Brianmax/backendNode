@@ -8,7 +8,7 @@ const app = express();
 const port = 3001;
 
 app.use(bodyParser.json());
-app.use(cors({ origin: "http://localhost:3002" }));
+app.use(cors({ origin: "*" }));
 app.use('/', userRoutes);
 
 app.listen(port, () => {

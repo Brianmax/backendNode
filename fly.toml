@@ -1,15 +1,15 @@
-# fly.toml app configuration file generated for backendnode-red-sound-1063 on 2024-07-21T00:04:30-05:00
+# fly.toml app configuration file generated for backendnode-spring-haze-6889 on 2024-07-21T13:00:07-05:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'backendnode-red-sound-1063'
+app = 'backendnode-spring-haze-6889'
 primary_region = 'atl'
 
 [build]
 
 [http_service]
-  internal_port = 3000
+  internal_port = 3001
   force_https = true
   auto_stop_machines = true
   auto_start_machines = true
